@@ -56,3 +56,29 @@ body {
     float: left;
 }
 
+input,
+textarea {
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #777;
+    margin: 10px 0;
+}
+
+#name,
+#email,
+#msg {
+    width: 100%;
+    font-size: 16px;
+}
+
+#msg {
+    height: 200px;
+}
+
+#submit {
+    background-color: #4aaaa5;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 30px;
+    box-sizing: content-box;
+}
