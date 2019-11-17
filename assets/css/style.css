@@ -33,88 +33,31 @@ body {
     border: 2px solid #ccc;
 }
 
+.footer {
+    background-color: #666;
+    border-top: 8px solid #4aaaa5;
+
+}
+
 .no-padding {
     padding-left: 0;
 }
 
-.parent-box {
-    position: relative;
-}
-
-.parent-box div {
+.card-img-banner {
     position: absolute;
     bottom: 20px;
     background-color: #4aaaa5;
-    color: #fff;
-    width: 280px;
-    padding: 10px;
+    width: 100%;
 }
 
-.bg-666 {
-    background-color: #666;
+.card-title {
+    margin-top: .75rem;
 }
 
 h1 {
     color: #4aaaa5;
 }
 
-/* header and footer are in separate stylesheets */
-/* needed for the sticky footer */
-.wrapper {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-}
-
-/*first container to set width to 960 and add margin*/
-.content-container {
-    box-sizing: border-box;
-    max-width: 960px;
-    width: 100%;
-    margin: 40px auto;
-    flex: 1 0 auto;
-}
-
-/*second container to make sure white background is only around page content*/
-.just-text {
-    display: flex;
-    padding: 30px;
-    background-color: #fff;
-    border: 1px solid #ddd;
-    flex-direction: column;
-}
-
-/*add the pretty page title to the top of the page content*/
-.page-title {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    padding: 10px 0 30px 0;
-    margin: 0 0 20px 0;
-    border-bottom: 2px solid #ccc;
-}
-
-/*styles for about me page*/
-.container-text {
-    display: block;
-}
-
-.container-text p:first-of-type {
-    margin-block-start: unset;
-}
-
-.profile-image {
-    width: 300px;
-    height: 300px;
-    margin: 0 20px 20px 0;
-    float: left;
-}
-
-.quote {
-    font-size: 20px;
-    font-style: italic;
-    color: #666;
-}
 
 /*styles for contact form*/
 input,
@@ -142,34 +85,4 @@ textarea {
     font-size: 16px;
     padding: 12px 30px;
     box-sizing: content-box;
-}
-
-/*styles for portfolio page*/
-.portfolio-container {
-    width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.portfolio-card {
-    position: relative;
-    width: 280px;
-    height: 200px;
-    padding: 0;
-    margin: 0 20px 20px 0;
-}
-
-.card-banner {
-    width: 280px;
-    height: 40px;
-    font-size: 20px;
-    background-color: #4aaaa5;
-    color: #fff;
-    position: absolute;
-    left: 0;
-    bottom: 10px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
