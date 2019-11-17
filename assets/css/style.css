@@ -29,6 +29,35 @@ body {
     justify-content: center;
 }
 
+.border-ccc {
+    border: 2px solid #ccc;
+}
+
+.no-padding {
+    padding-left: 0;
+}
+
+.parent-box {
+    position: relative;
+}
+
+.parent-box div {
+    position: absolute;
+    bottom: 20px;
+    background-color: #4aaaa5;
+    color: #fff;
+    width: 280px;
+    padding: 10px;
+}
+
+.bg-666 {
+    background-color: #666;
+}
+
+h1 {
+    color: #4aaaa5;
+}
+
 /* header and footer are in separate stylesheets */
 /* needed for the sticky footer */
 .wrapper {
