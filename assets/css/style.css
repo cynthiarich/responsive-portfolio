@@ -9,6 +9,26 @@ body {
     width: 100%;
 }
 
+.navbar {
+    border-bottom: 2px solid #ccc;
+    padding: 0;
+}
+
+.navbar-brand {
+    color: #fff!important;
+}
+
+.navbar-img {
+    width: 250px;
+    height: 80px;
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* header and footer are in separate stylesheets */
 /* needed for the sticky footer */
 .wrapper {
