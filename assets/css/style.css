@@ -4,7 +4,7 @@ body {
     line-height: 150%;
     color: #777;
     background-image: url("../images/lilypads.png");
-    margin: 0;
+    margin-bottom: 60px;
     padding: 0;
     width: 100%;
 }
@@ -34,6 +34,12 @@ body {
 }
 
 .footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    height: 60px;
+    line-height: 60px; /* Vertically center the text there */
     background-color: #666;
     border-top: 8px solid #4aaaa5;
 
@@ -86,3 +92,10 @@ textarea {
     padding: 12px 30px;
     box-sizing: content-box;
 }
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+
